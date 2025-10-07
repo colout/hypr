@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+# notification daemon
+dunst &
+
+# copy/paste to wine apps
+wl-paste -t text -w xclip -selection clipboard &
 
 # wallpaper
 swww init
